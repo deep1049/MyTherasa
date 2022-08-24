@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    margin: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+.box>img{
+    width: 100%;
+    height: 90%
+}
+#box1inner{
+    margin: auto;
+    margin-top: -33%;
+    margin-left: 43%;
+    
+    color: white;
+    
+    
+}
+.btn{
+    width: 16%;
+    height: 28px;
+    font-weight:lighter;
+    border: 0px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+#box1inner>h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -35px;
+    font-weight:lighter
+   
+}
+#box1inner>h1:hover{
+    color: grey;
+}
+#box1{
+   
+    width: 100%;
+    height: 700px;
+
+}
+#newarrival{
+padding-left: 40%;
+
+
+}
+#slidingcard{
+    width: 80%;
+    height: 400px;
+  
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    /* padding: 5%; */
+    position: relative;
+    margin-bottom: 20px;
+
+}
+#slidingcard>div>img{
+    width: 100%;
+    height: 80%;
+    
+}
+#slidingcard>div{
+    margin: auto;
+   width: 23%;
+   height: 90%;
+    padding-top: 0px;
+   
+}
+#slidingcard>div>h4  {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#slidingcard>div>p{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%; 
+    margin-top: 5%;
+}
+#slidingcard>button{
+    position: absolute;
+    top: 150px;
+    font-size:xx-large ;
+    font: 100;
+    border:0px;
+    background-color: transparent;
+}
+.btn1{
+    left: -2%;
+}
+.btn2{
+right: -2%;
+}
+.view>button{
+background-color: black;
+color: white;
+width: 90px;
+height: 40px;
+margin-left: 46%;
+margin-bottom: 5px;
+
+}
+#box3{
+
+width: 85%;
+    height: 700px;
+
+    margin: auto;
+    display: flex;
+   padding-top: 5px;
+   margin-top: 20px;
+}
+#box3>div{
+width: 50%;
+height: 95%;
+
+}
+#rhs_box3>img{
+width: 100%;
+height: 100%;
+}
+#lhs_box3{
+background-color: black;
+}
+#inner_lhs_box3{
+color: white;
+width: 70%;
+height: 40%;
+margin-top: 200px;
+margin-left: 100px;
+}
+#inner_lhs_box3>h1,h4,button{
+margin-top: 20px;
+}
+#inner_lhs_box3>h1{
+font-size: 50px;
+font: 100px
+}
+#inner_lhs_box3>button{
+width: 100px;
+}
+#slidingcard2{
+    width: 80%;
+    height: 400px;
+
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    /* padding: 5%; */
+    position: relative;
+    margin-bottom: 20px;
+
+}
+#slidingcard2>div>img{
+    width: 100%;
+    height: 80%;
+    
+}
+#slidingcard2>div{
+    margin: auto;
+   width: 23%;
+   height: 90%;
+    padding-top: 0px;
+   
+}
+#slidingcard2>div>h4  {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#slidingcard2>div>p{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%; 
+    margin-top: 5%;
+}
+#slidingcard2>button{
+    position: absolute;
+    top: 150px;
+    font-size:xx-large ;
+    font: 100;
+    border:0px;
+    background-color: transparent;
+}
+
+.view>button{
+background-color: black;
+color: white;
+width: 90px;
+height: 40px;
+margin-left: 46%;
+margin-bottom: 5px;
+
+}
+#box5{
+
+width: 85%;
+   height: 700px;
+ 
+   margin: auto;
+   display: flex;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+#box5>div{
+width: 50%;
+height: 95%;
+
+}
+#lhs_box5>img{
+width: 100%;
+height: 100%;
+}
+#rhs_box5{
+background-color: black;
+}
+#inner_rhs_box5{
+color: white;
+width: 70%;
+height: 40%;
+margin-top: 200px;
+margin-left: 100px;
+}
+#inner_rhs_box5>h1,h4,button{
+margin-top: 20px;
+}
+#inner_rhs_box5>h1{
+font-size: 70px;
+font: 200px
+}
+#inner_rhs_box5>button{
+width: 100px;
+}
+#slidingcard3{
+    width: 80%;
+    height: 400px;
+ 
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    /* padding: 5%; */
+    position: relative;
+    margin-bottom: 20px;
+
+}
+#slidingcard3>div>img{
+    width: 100%;
+    height: 80%;
+    
+}
+#slidingcard3>div{
+    margin: auto;
+   width: 23%;
+   height: 90%;
+    padding-top: 0px;
+  
+}
+#slidingcard3>div>h4  {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#slidingcard3>div>p{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%; 
+    margin-top: 5%;
+}
+#slidingcard3>button{
+    position: absolute;
+    top: 150px;
+    font-size:xx-large ;
+    font: 100;
+    border:0px;
+    background-color: transparent;
+}
+
+.view>button{
+background-color: black;
+color: white;
+width: 90px;
+height: 40px;
+margin-left: 46%;
+margin-bottom: 5px;
+
+}
+.newarr{
+display: flex;
+justify-content: space-around;
+height: 50px;
+width: 85%;
+
+margin: auto;
+}
+.newarr>img{
+width: 25%;
+height: 40px;
+}
