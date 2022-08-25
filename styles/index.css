@@ -1,0 +1,199 @@
+#top_bar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 8px;
+}
+#top_bar > h3 {
+    color:rgb(148, 1, 1);
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+}
+#big_img > img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+#big_img_text {
+    /* border: blue 1px solid; */
+    width: 40%;
+    margin-top: -30%;
+    margin-left: 40%;
+    color: white;
+    line-height: 30px;
+}
+#big_img_text > p {
+    margin-left: 10%
+}
+#big_img_text > h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+#big_img_text > button {
+    padding: 10px;
+    border: none;
+    margin-left: 20%;
+    background-color: white;
+    margin-top: 3%;
+}
+#big_img_text > button > a {
+    text-decoration: none;
+    color: black;   
+    font-weight: 100;
+    font-size: 12px;
+}
+#new_arrivals {
+    width: 76%;
+    background-color: rgb(229, 229, 229);
+    margin-top: 17%;
+    margin-left: 10%;
+    padding: 2%;
+    border: rgb(184, 183, 183) 0.5px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#new_arrivals_text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+}
+#new_arrivals_text > h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+#new_arrivals_text > button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    margin-top: 3%;
+}
+#new_arrivals_text > button > a {
+    text-decoration: none;
+    color: white;   
+    font-weight: 100;
+    font-size: 12px;
+}
+#container, #container1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+#a_cut_above, #carry_reboot, #new_from, #already_best {
+    /* border: 1px solid blue; */
+    width: 90%;
+}
+#a_cut_above>p, #a_cut_above>h1, 
+#carry>p, #carry>h1,
+#reboot>p, #reboot>h1,
+#already_taken>h1, 
+#best>h1, #new_from>h1,
+#already_taken>p, #best>p, #new_from>p{
+    text-align: center;
+}
+#a_cut_above>h1 , #carry>h1, #reboot>h1, 
+#already_taken>h1, #best>h1, #new_from>h1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+#a_cut_above>a>img, #new_from>a>img {
+    width:98%;
+    height: 815px;
+}
+#carry>img, #reboot>img {
+    width:98%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#already_taken>a>img, #best>a>img {
+    width:98%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+#new_from>a>img {
+    margin-left: 2%;
+}
+#a_cut_above>a>button, 
+#carry>button, 
+#reboot>button,
+#already_taken>a>button, 
+#best>a>button, 
+#new_from>a>button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;   
+    font-weight: 100;
+    font-size: 12px;
+    cursor: pointer;
+}
+#container2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+#images {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+#images > div {
+    width: 25%;
+}
+#images > div > p {
+    text-align: center;
+}
+#images > div > img {
+    width: 95%;
+    height: 250px;
+}
+#container2 > p{
+    text-align: center;
+}
+#container2 > h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+#container2 > button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;   
+    font-weight: 100;
+    font-size: 12px;
+    cursor: pointer;
+}
+#para {
+    width: 70%;
+    margin: auto;
+}
+#para > h3 {
+    font-weight: 100;
+    text-align: center;
+}
+#middle {
+    display:flex ;
+}
+#middle > div {
+    width: 50%;
+    
+}
+#middle > div > p {
+    margin-top: -10px;
+}
+#para > p, #middle > div > p {
+    font-size: 14px;
+}
