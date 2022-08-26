@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    #box1{
+        width: 80%;
+        height: 600px;
+     
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        position: relative;
+    }
+    #box1>div{
+        width: 48%;
+        height: 98%;
+    
+    }
+    #box1>div>img{
+        width: 100%;
+        height: 100%;
+    }
+    #box1_inner_lhs{
+        position: absolute;
+        left: 250px;
+        top: 350px;
+
+    }
+    #box1_inner_rhs{
+        position: absolute;
+         left: 850px;
+         top: 350px;
+
+    }
+    #box1_inner_lhs>h1{
+       color: white;
+       font-size: 70px;
+    }
+    #box1_inner_rhs>h1{
+       color: white;
+       font-size: 70px;
+    }
+    .btn{
+    width: 90%;
+    height: 28px;
+    font-weight:lighter;
+    border: 0px;
+    margin-left: 20px;
+}
+.btnblack{
+    width: 20%;
+    height: 30px;
+    font-weight:lighter;
+    border: 0px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    
+}
+#box2{
+    width: 80%;
+    height: 300px;
+   
+    
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#box2>img{
+    width: 100%;
+    height: 98%;
+    
+}
+#box2_inner{
+    margin-top: -180px;
+    margin-left: 45%;
+}
+#box2_inner>h1{
+    color:black;
+    font-weight: lighter;
+       font-size: 70px;
+}
+#box3{
+        width: 80%;
+        height: 400px;
+      
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        position: relative;
+    }
+    #box3>div{
+        width: 48%;
+        height: 98%;
+    
+    }
+    #box3>div>img{
+        width: 100%;
+        height: 100%;
+    }
+    #box3_inner_lhs{
+        position: absolute;
+       left: 170px;
+       top: 250px;
+
+    }
+    #box3_inner_rhs{
+        position: absolute;
+         left: 750px;
+         top: 250px;
+
+    }
+    #box3_inner_lhs>h1{
+       color: white;
+       font-size: 30px;
+    }
+    #box3_inner_rhs>h1{
+       color: white;
+       font-size: 30px;
+       margin-left: -10px;
+    }
+    #box3_inner_rhs>button{
+        margin-left: 50px;
+        margin-top: 20px;
+        height: 30px;
+    }
+    #box3_inner_lhs>button{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+    }
+    
+    #slidingcard{
+    width: 60%;
+    height: 400px;
+  
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    /* padding: 5%; */
+    position: relative;
+    margin-bottom: 20px;
+
+}
+#slidingcard>div>img{
+    width: 100%;
+    height: 80%;
+    
+}
+#slidingcard>div{
+    margin: auto;
+   width: 23%;
+   height: 90%;
+    padding-top: 0px;
+   
+}
+#slidingcard>div>h4  {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#slidingcard>div>p{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%; 
+    margin-top: 5%;
+}
+#slidingcard>button{
+    position: absolute;
+    top: 150px;
+    font-size:xx-large ;
+    font: 100;
+    border:0px;
+    background-color: transparent;
+}
+.btn1{
+    left: -2%;
+}
+.btn2{
+right: -2%;
+}
+.view>button{
+background-color: black;
+color: white;
+width: 13%;
+height: 40px;
+margin-left: 43%;
+margin-bottom: 5px;
+
+}
+#designer{
+padding-left: 40%;
+font-weight: lighter;
+
+}
+/* #box4{
+    width: ;
+} */
+#para {
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid grey;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+}
+#para > h3 {
+    font-weight: 100;
+    text-align: center;
+}
+#middle {
+    display:flex ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#middle > div {
+    width: 50%;
+    
+}
+#middle > div > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+#para > p, #middle > div > p {
+    font-size: 14px;
+}
