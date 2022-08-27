@@ -15,26 +15,18 @@
 }
 #B2{
     width:50%;
+    margin-top: 50px;
 }
 .sbox1{
     margin-top: 10px;
     width: 90%;
-}
-.changes{
-       margin-top: 10px;
-       width: 82%;
-       height: 32px;
-
 }
 
 .inputtag{
     width:90%;
     height:25px;
 }
-#input1{
-    width:82%;
-    height:32px;
-}
+
 #bsign{
     font-style: Arial;
     background-color: #f2f2f2 ;
@@ -42,25 +34,15 @@
     border: transparent;
     height: 30px;
 }
-#para{
-    color: rgb(237, 0, 0);;
-}
-#t{
+
+.t{
     font-size: 20px;
 }
 li{
     color: gray;
     margin-top: 5px;
 }
-.sbox2{
-    margin-top: 80px;
-    width: 90%;
-}
-#t{
-    font-size: 20px;
-    color: grey;
 
-}
 #d{
     color: grey;
     margin-bottom: 2px;
@@ -68,4 +50,20 @@ li{
 #dateofbirth select{
         width: 27%;
         height: 32px;
+}
+
+.sbox2{
+    margin-top: 10px;
+    width: 90%;
+}
+.para{
+    color: #757575;
+}
+
+
+button{
+    width: 70px;
+  background-color: #000000;
+  color: #FFFFFF
+  
 }
