@@ -54,7 +54,7 @@ body{
     height: 38px;
 }
 #mid_navbar>p{
-  margin-left: 25%;
+  margin-left: 21%;
 }
 #mid_navbar>p>a{
     text-decoration: none;
@@ -75,13 +75,14 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
 }
 #bottom_catg{
     display: flex;
 
 }
 #bottom_catg>p>a{
-    padding-left: 20px;
+    padding-left: 10px;
     text-decoration: none;
    color: rgba(0, 0, 0, 0.842);
    cursor: pointer;
@@ -236,57 +237,73 @@ color: rgba(0, 0, 0, 0.747);
 .dropbtn>a:hover{
     color: black;
 }
-
 #hover_ctg {
+    margin: auto;
     margin-top: -40px;
     position: absolute;
-   
+    
+    top: 21px;
+    left: 0px;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     height: 500px;
     margin-bottom: 10px;
-    border: 1px solid white;
+    border: 1px lightblue white;
     transform: translateY(50px);
 }
+
 #head_catg1>p{
     padding-left: 30px;
     padding-top: 20px;
     text-transform: uppercase; 
+    background-color: rgba(128, 128, 128, 0.582);
 }
 #head_catg1>ul>li{
     list-style: none;
     padding-left: 30px;
     line-height: 25px;
     cursor: pointer;
+    margin-right: 180px;
+
+    
 }
 #head_catg2>p{
     padding-top: 20px;
     text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.582);
     
 }
 #head_catg2>ul>li{
     list-style: none;
    cursor: pointer;
     line-height: 25px;
+    margin-right: 180px;
+    
+    
+    
 }
 #head_catg3>ul>li{
     list-style: none;
    cursor: pointer;
     line-height: 25px;
+    margin-right: 175px;
+
+    
 }
 #head_catg3>p{
     padding-top: 20px;
     text-transform: uppercase;
-  
+    background-color: rgba(128, 128, 128, 0.582);
+   
 }
-
-
-
-#hover_ctg{
-    width: 90%;
-    height: 45px;
-    /* background-color:  rgba(197, 192, 192, 0.397); */
+#head_catg4{
+    background-color: rgba(128, 128, 128, 0.582);
+}
+#head_catg4>img{
+   width: 450px;
+   height: 450px;
+   margin-top: 38px;
 }
 
 #hover_ctg::before {
@@ -299,12 +316,6 @@ color: rgba(0, 0, 0, 0.747);
     height: 12px;
     transform: translateY(-50%) rotate(45deg);
 }
-/* #main_hover.dropdown-toggle {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-} */
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -329,7 +340,7 @@ color: rgba(0, 0, 0, 0.747);
   .drp-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .drp-content {display: inline;}
-  
+ 
   .dropdown:hover .dropbtn {background-color: transparent;}
 
 

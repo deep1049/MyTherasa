@@ -155,4 +155,11 @@
 }
 #icon{
     display: flex;
+    
+}
+#icon>i{
+    padding: 7px;
+}
+#icon>i:hover{
+    color: rgb(223, 37, 68);
 }
