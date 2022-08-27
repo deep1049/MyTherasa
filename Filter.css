@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    width: 15rem;
+}
+#filter{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px 0px 15px;
+    
+}
+#filter>p:nth-child(1){
+    color: black;
+}
+#filter>p{
+    color: gray;
+}
+
+#input>p{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 15rem;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 5px 0px;
+    align-items: center;
+    margin: 12px 0px 0px;
+}
+#input>p>i{
+    font-size: 25px;
+}
+
+#input>div{
+    width: 15rem;
+    /* padding: 4px 0px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#input>div>input{
+    width: 235px;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    margin-right: 5px;
+    outline: none;
+    font-size: 18px;
+}
+#input>div>i{
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+
+#Options{
+    height: 400px;
+    width: 15rem;
+    padding: 10px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+#Options>p{
+    margin-bottom: 8px;
+    color: #686767;
+}
+#Options>p:hover{
+    color:black;
+}
+#Options>p>i{
+    margin-right: 6px;
+    font-size: 12px;
+    color: grey;
+}
+/* Designer Close */
+#size>p{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 15rem;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 5px 0px;
+    align-items: center;
+    margin: 12px 0px 0px;
+}
+#size>p>i{
+    font-size: 25px;
+}
+
+#size1{
+    height: 400px;
+    width: 15rem;
+    padding: 10px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+#size1>p{
+    margin-bottom: 8px;
+    color: #686767;
+}
+#size1>p:hover{
+    color:black;
+}
+#size1>p>i{
+    margin-right: 6px;
+    font-size: 12px;
+    color: grey;
+}
+
+/* Size Close */
+
+#color>p{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 15rem;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 5px 0px;
+    align-items: center;
+    margin: 12px 0px 0px;
+}
+#color>p>i{
+    font-size: 25px;
+}
+
+#color1{
+    height: 400px;
+    width: 15rem;
+    padding: 10px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+#color1>p{
+    margin-bottom: 8px;
+    color: #686767;
+}
+#color1>p:hover{
+    color:black;
+}
+#color1>p>i{
+    margin-right: 6px;
+    font-size: 12px;
+    color: grey;
+}
