@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    margin: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+.box>img{
+    width: 100%;
+    height: 90%
+}
+#box1inner{
+    margin: auto;
+    margin-top: -33%;
+    margin-left: 43%;
+    
+    color: white;
+    
+    
+}
+.btn{
+    width: 16%;
+    height: 28px;
+    font-weight:lighter;
+    border: 0px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+#box1inner>h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -35px;
+    font-weight:lighter
+   
+}
+#box1inner>h1:hover{
+    color: grey;
+}
+#box1{
+   
+    width: 90%;
+    height: 600px;
+    margin: auto;
+
+}
+#box2{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    border-top: 1px solid grey;
+    margin: auto;
+     justify-content: space-between;
+}
+#box2>div{
+    width: 38%;
+    height: 100%;
+    /* border: 1px solid blue; */
+   padding-left: 20px;
+   padding-right: 20px;
+   
+}
+#box2>div>h1{
+    align-items:flex-end;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:normal;
+}
+#box2>div>p{
+    margin-left: 70px;
+    margin-top: 10px;
+    text-align: center;
+}
+#box3{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#box3>div{
+    width: 49%;
+    height: 98%;
+   
+}
+#box3_lhs>img{
+    width: 100%;
+    height: 100%;
+}
+#box3_rhs{
+    display: grid;
+    gap: 0px;
+   
+
+}
+#box3_rhs>div{
+    width: 100%;
+    height: 100%;
+  
+    gap: 0px;
+}
+/* #box3_rhs>div:first-child{
+   
+} */
+#box3_rhs>div:first-child>img{
+    width: 100%;
+    height: 80%;
+}
+#box3_rhs>div:last-child{
+   text-align: center;
+     border-top: 1px solid grey;
+}
+#box3_rhs>div:last-child>img{ 
+  
+    width: 100%;
+    height: 73%;
+}
+#box3_rhs>div:last-child>p{
+    /* margin-left: 40%; */
+    margin-bottom: 5x;
+}
+
+#box3_rhs>div:last-child>h1{
+    margin-left: 19%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.shop{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 5px;
+  
+}
+#box4{
+    width: 80%;
+    height: 100px;
+   border-bottom: 1px solid grey;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+}
+#box4>div{
+    width: 50%;
+   
+}
+.shop2{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 30px;
+  
+  margin-left: 40%;
+
+}
+.shop3{
+    background-color: black;
+    color: white;
+    width: 10%;
+    height: 30px;
+    margin: auto;
+  margin-left: 45%;
+
+}
+#box5{
+    width: 80%;
+    height: 120px;
+    
+    margin: auto;
+    display: grid;
+    text-align: center;
+    padding-top: 10px;
+}
+#box5>h1{
+    margin-top: -20px;
+}
+#box6{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    
+}
+#box6>div{
+    width: 24%;
+    height: 90%;
+   
+    text-align: center;
+}
+#box6>div>img{
+    width: 100%;
+    height: 90%;
+}
+
+#para {
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid grey;
+    margin-top: 20px;
+    height: auto;
+}
+#para > h3 {
+    font-weight: 100;
+    text-align: center;
+}
+#middle {
+    display:flex ;
+}
+#middle > div {
+    width: 50%;
+    
+}
+#middle > div > p {
+    margin-top: -10px;
+}
+#para > p, #middle > div > p {
+    font-size: 14px;
+}
