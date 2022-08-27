@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#top{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#top>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#top>a:hover{
+    color: gray;
+}
+#mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+#state{
+    display: flex;
+    width: 13rem;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+#state>p>i:hover{
+    color: red;
+}
+
+#mainContainer>div:nth-child(1)>.firstP{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+#state>p{
+    color: grey;
+}
+#mainContainer>div:nth-child(1)>p{
+    color: gray;
+}
+#mainContainer>div:nth-child(1){
+    width: 50%;
+}
+#mainContainer>div:nth-child(1)>form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+#mainContainer>div:nth-child(1)>form>p{
+    color: gray;
+}
+#mainContainer>div:nth-child(1)>form>input{
+    width: 90%;
+    padding: 9px 0px 9px 8px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    text-decoration: none;
+}
+#mainContainer>div:nth-child(1)>form>select{
+    width: 90%;
+    padding: 9px 0px 9px 8px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    text-decoration: none;
+}
+#mainContainer>div:nth-child(1)>form>button{
+    width: 35%;
+    margin: auto;
+    padding: 9px 0px 9px 8px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    text-decoration: none;
+}
+#mainContainer>div:nth-child(1)>form>button:hover{
+    background-color: rgb(49, 47, 47);
+}
+/********************** Left Section Close Here ***********************/
+
+#VerticalLine{
+    width: 1px;
+    border-left: 1px solid gray;
+}
+
+#mainContainer>div:nth-child(3){
+    width: 40%;
+}
+
+#mainContainer>div:nth-child(3)>p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+#mainContainer>div:nth-child(3)>div:nth-child(2){
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-bottom: 22px;
+}
+#mainContainer>div:nth-child(3)>div:nth-child(2)>p{
+    font-size: 14px;
+    color: gray;
+}
+#mainContainer>div:nth-child(3)>div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0px;
+}
+
+#Dgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 40px;
+    margin: 20px 0px;
+}
+#Dgrid>div>p>i{
+    margin-right: 10px;
+}
+#Dgrid>div>img{
+    display: block;
+    width: 50%;
+    margin-left: 40px;
+}
+#Dgrid>div>img:hover{
+    width: 70%;
+}
+
+#last{
+    display: flex;
+    justify-content: space-between;
+}
+#last>h3{
+    font-size: 16px;
+}
+#last>h3>i{
+    margin-right: 6px;
+}
