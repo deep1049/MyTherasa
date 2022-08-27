@@ -116,27 +116,6 @@ margin-left: 46%;
 margin-bottom: 5px;
 
 }
-#para {
-    width: 70%;
-    margin: auto;
-}
-#para > h3 {
-    font-weight: 100;
-    text-align: center;
-}
-#middle {
-    display:flex ;
-}
-#middle > div {
-    width: 50%;
-    
-}
-#middle > div > p {
-    margin-top: -10px;
-}
-#para > p, #middle > div > p {
-    font-size: 14px;
-}
 #box3{
 
 width: 85%;
